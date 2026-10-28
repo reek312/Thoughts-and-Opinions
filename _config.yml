@@ -1,3 +1,10 @@
 title: My Blog
 description: Things I write about
-theme: minima
+remote_theme: jekyll/minima
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
